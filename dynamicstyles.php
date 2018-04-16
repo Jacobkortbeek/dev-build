@@ -25,6 +25,8 @@
 
 
 .heading {
-  color: <?php echo get_field( 'heading_colour', 'option' ); ?>;
+  <?php if ( get_field( 'heading_colour', 'option' ) ) : ?>
+    color: <?php the_field( 'heading_colour', 'option' ); ,
+  <?php endif; ?>
 }
 </style>
