@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <title><?php wp_title( '|', true, 'right' ); bloginfo( 'name' ); ?></title>
     <?php wp_head(); ?>
-    <?php include ('dynamicstyles.php'); ?>
+    <?php get_field'dynamicstyles.php'); ?>
   </head>
   <header>
     <div class="container">
