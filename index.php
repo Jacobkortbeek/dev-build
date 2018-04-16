@@ -13,7 +13,7 @@
     <div class="col-md-6 two">
       <div class="cont">
         <?php
-        $text = get_field('text_options');
+        $text = get_field('text_options', 'options');
 
         if ( $text ) :
           if ( $text['heading_h_tag'] ) :?>
