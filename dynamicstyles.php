@@ -3,6 +3,10 @@
   .body{
     background-color: <?php the_field( 'background_colour' ); ?>;
   }
+  <?php else : ?>
+  .body{
+    background-color: red;
+  }
 <?php endif ;?>
 
 .heading {
