@@ -18,7 +18,7 @@ $text = get_field('text_options');
     </div>
     <div class="col-md-6 two">
       <div class="cont">
-        <?php echo $text['heading_h_tag']; ?>
+        <?php get_field('text_options')['heading_h_tag']; ?>
       </div>
     </div>
   </div>
