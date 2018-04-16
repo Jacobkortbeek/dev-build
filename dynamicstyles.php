@@ -6,6 +6,7 @@
      <?php elseif ( get_field( 'background_choice', 'options' ) == 'gradient' ): ?>
       linear-gradient(<?php the_field( 'gradient_colour_one', 'option' ); ?>, <?php the_field( 'gradient_colour_two', 'option' ); ?>, <?php the_field( 'gradient_colour_three', 'option' ); ?>, <?php the_field( 'gradient_colour_four', 'option' ); ?>);
      <?php endif ;?>
+     background-repeat: no-repeat;
   }
 
 
