@@ -1,1 +1,7 @@
+@import "var";
 @import "sections/header";
+
+body{
+  background: linear-gradient($green, $bluegreen, $lightblue, $blue);
+  background-repeat: no-repeat;
+}

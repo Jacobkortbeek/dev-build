@@ -2,3 +2,7 @@
   background-color: white; }
   .header > h2 {
     padding: 50px 20px 50px 20px; }
+
+body {
+  background: linear-gradient(#99ff7d, #7dffd6, #7deeff, #7d9cff);
+  background-repeat: no-repeat; }
