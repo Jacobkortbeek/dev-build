@@ -20,6 +20,7 @@ $text = get_field('text_options');
       <div class="cont">
         <?php if ( $text ) : ?>
           <?php $text['heading_h_tag']; ?>
+        <?php endif; ?>
       </div>
     </div>
   </div>
