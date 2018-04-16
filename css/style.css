@@ -1,3 +1,4 @@
 .header {
-  background-color: white;
-  padding: 50px 20px 50px 20px; }
+  background-color: white; }
+  .header > h2 {
+    padding: 50px 20px 50px 20px; }
