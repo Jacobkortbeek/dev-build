@@ -16,5 +16,5 @@
     </div>
   </div>
 </div>
-
+<h2><?php the_field( 'title_sample' ); ?></h2> 
 <?php get_footer(); ?>
