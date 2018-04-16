@@ -1,9 +1,3 @@
-<?php
-
-//var
-$text = get_field('text_options');
-
-?>
 
 <?php get_header(); ?>
 
@@ -18,8 +12,13 @@ $text = get_field('text_options');
     </div>
     <div class="col-md-6 two">
       <div class="cont">
-        <?php if ( $text ) : ?>
+        <?php
+        $text = get_field('text_options');
+
+        if ( $text ) :
+          if ( $text['heading_h_tag']; ) :?>
           <?php $text['heading_h_tag']; ?>
+        <?php endif; ?>
         <?php endif; ?>
       </div>
     </div>
