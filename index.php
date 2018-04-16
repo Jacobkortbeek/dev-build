@@ -18,7 +18,7 @@ $text = get_field('text_options');
     </div>
     <div class="col-md-6 two">
       <div class="cont">
-        <?php echo $text ?>
+        <?php get_field('text_options'); ?>
       </div>
     </div>
   </div>
