@@ -16,8 +16,8 @@
         $text = get_field('text_options', 'options');
 
         if ( $text ) :
-          if ( $text['heading_h_tag'] ) :?>
-          <?php $text['heading_h_tag']; ?>
+          if ( $text['heading_h_tag', 'option'] ) :?>
+          <?php $text['heading_h_tag', 'option']; ?>
         <?php endif; ?>
         <?php endif; ?>
       </div>
