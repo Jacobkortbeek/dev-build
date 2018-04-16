@@ -11,7 +11,7 @@
     </div>
     <div class="col-md-6 two">
       <div class="cont">
-        <?php the_field( 'gradient_colour_one', 'option' ); ?>
+        <?php the_field( 'heading_colour', 'option' ); ?>
       </div>
     </div>
   </div>
