@@ -1,7 +1,7 @@
 <style type="text/css">
-<?php if( get_field( 'background_choice', 'option' ) == 'single' ): ?>
+<?php if ( get_field( 'background_choice', 'option' ) == 'single' ): ?>
   .body{
-    background-color: <?php the_field( 'background_colour' ); ?>;
+    background-color: <?php the_field( 'background_colour', 'option' ); ?>;
   }
   <?php else : ?>
   .body{
