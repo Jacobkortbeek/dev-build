@@ -1,5 +1,5 @@
 <style type="text/css">
-<?php if( get_field( 'background_choice' ) == 'single' ): ?>
+<?php if( get_field( 'background_choice' ) == 'gradient' ): ?>
   .body{
     background-color: <?php the_field( 'background_colour' ); ?>;
   }
