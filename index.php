@@ -6,7 +6,7 @@
   <div class="row">
     <div class="col-md-6 one">
       <div class="cont">
-        1
+        <p><?php the_field( 'background_choice', 'options' ); ?></p>
       </div>
     </div>
     <div class="col-md-6 two">
@@ -16,5 +16,5 @@
     </div>
   </div>
 </div>
-<h2><?php the_field( 'title_sample' ); ?></h2> 
+<h2><?php the_field( 'title_sample' ); ?></h2>
 <?php get_footer(); ?>
