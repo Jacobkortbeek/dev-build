@@ -4,12 +4,12 @@
 
 <div class="container">
   <div class="row">
-    <div class="col-md-6 one">
+    <div class="span6 one">
       <div class="cont">
         1
       </div>
     </div>
-    <div class="col-md-6 two">
+    <div class="span6 two">
       <div class="cont">
         2
       </div>
