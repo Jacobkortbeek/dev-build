@@ -27,7 +27,7 @@
 .heading {
   padding: 20px;
   <?php if ( get_field( 'heading_colour', 'option' ) ) : ?>
-    color: <?php the_field( 'heading_colour', 'option' ); ?>,
+    color: <?php the_field( 'heading_colour', 'option' ); ?>;
   <?php endif; ?>
 }
 </style>
