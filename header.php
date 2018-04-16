@@ -4,9 +4,9 @@
     <meta charset="utf-8" />
     <title><?php wp_title( '|', true, 'right' ); bloginfo( 'name' ); ?></title>
     <?php wp_head(); ?>
+    <?php include ('dynamicstyles.php'); ?>
   </head>
   <header>
-    <?php include( './global_styles' ); ?>
     <div class="container">
       <div class="row">
         <div class="col-12 header">
