@@ -1,5 +1,5 @@
 <style type="text/css">
 .heading {
-  color: <?php the_field( 'heading_colour' ); ?>;
+  color: <?php echo get_field( 'heading_colour' ); ?>;
 }
 </style>
