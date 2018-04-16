@@ -1,6 +1,6 @@
 <style type="text/css">
 <?php if ( get_field( 'background_choice', 'options' ) == 'single_color' ): ?>
-  .body{
+  body{
     background-color: <?php the_field( 'background_colour', 'option' ); ?> !important;
   }
   <?php else : ?>
