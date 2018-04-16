@@ -11,7 +11,7 @@
     </div>
     <div class="col-md-6 two">
       <div class="cont">
-        <?php the_field( 'heading_h_tag', 'option' ); ?>
+        <?php the_field( 'heading_h_tag', 'options' ); ?>
       </div>
     </div>
   </div>
