@@ -1,3 +1,10 @@
+<?php
+
+//var
+$text = get_field('text_options');
+
+?>
+
 <?php get_header(); ?>
 
 <h2>Hello World!</h2>
@@ -11,7 +18,7 @@
     </div>
     <div class="col-md-6 two">
       <div class="cont">
-        <?php the_field( 'heading_h_tag', 'options' ); ?>
+        <?php echo $text['heading_h_tag']; ?>
       </div>
     </div>
   </div>
