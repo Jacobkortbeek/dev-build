@@ -3,7 +3,7 @@
   .body{
     background-color: <?php the_field( 'background_colour' ); ?>;
   }
-  <?php endif; ?>
+<?php endif ?>
 
 .heading {
   color: <?php echo get_field( 'heading_colour', 'option' ); ?>;
