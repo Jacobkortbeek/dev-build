@@ -16,7 +16,7 @@
         $text = get_field('text_options');
 
         if ( $text ) :
-          if ( $text['heading_h_tag']; ) :?>
+          if ( $text['heading_h_tag'] ) :?>
           <?php $text['heading_h_tag']; ?>
         <?php endif; ?>
         <?php endif; ?>
