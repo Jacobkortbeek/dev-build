@@ -16,7 +16,7 @@
           $text = get_field( 'text_options', 'options' );
 
           if( $text ): ?>
-          <?php echo $text['heading_h_tag']; ?>
+          <?php echo $text['main_heading_colour']; ?>
         <?php endif; ?>
       </div>
     </div>
