@@ -17,6 +17,7 @@
 
           if( $text ): ?>
           <?php echo $text['main_heading_colour']; ?>
+          <?php echo $text['heading_font_size']; ?>;
         <?php endif; ?>
       </div>
     </div>

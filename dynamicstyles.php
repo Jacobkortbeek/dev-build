@@ -30,6 +30,9 @@
     $text = get_field( 'text_options', 'options' );
     if( $text ): ?>
     color:<?php echo $text['main_heading_colour']; ?>;
+    <?php if ( $text['heading_font_size'] ) : ?>
+    font-size:<?php echo $text['heading_font_size']; ?>;
+    <?php endif; ?>
   <?php endif; ?>
 }
 </style>
