@@ -23,12 +23,12 @@
   }
 
 
-
-.heading {
-  padding: 20px;
   <?php
     $text = get_field( 'text_options', 'options' );
     if( $text ): ?>
+<?php echo $text['heading_h_tag']; ?> {
+  padding: 20px;
+
     color:<?php echo $text['main_heading_colour']; ?>;
     <?php if ( $text['heading_font_size'] ) : ?>
     font-size:<?php echo $text['heading_font_size']; ?>em;
@@ -39,6 +39,7 @@
     <?php if ( $text['header_font_weight'] ) : ?>
     font-weight:<?php echo $text['header_font_weight']; ?>;
     <?php endif; ?>
-  <?php endif; ?>
+
 }
+<?php endif; ?>
 </style>

@@ -20,6 +20,7 @@
           <?php echo $text['heading_font_size']; ?>em
           <?php echo $text['header_line_hieght']; ?>px
           <?php echo $text['header_font_weight']; ?>
+          <?php echo $text['heading_h_tag']; ?>
         <?php endif; ?>
       </div>
     </div>
