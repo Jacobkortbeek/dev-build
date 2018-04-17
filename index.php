@@ -12,14 +12,7 @@
     </div>
     <div class="col-md-6 two">
       <div class="cont">
-        <?php
-        $text = get_field('text_options', 'option');
-
-        if ( $text ) :
-          if ( $text['heading_h_tag'] ) :?>
-          <?php $text['heading_h_tag']; ?>
-        <?php endif; ?>
-        <?php endif; ?>
+        <?php get_field( 'heading_h_tag' ); ?>
       </div>
     </div>
   </div>
