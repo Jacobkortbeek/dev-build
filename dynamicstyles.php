@@ -34,7 +34,7 @@
     font-size:<?php echo $text['heading_font_size']; ?>em;
     <?php endif; ?>
     <?php if ( $text['header_line_hieght'] ) : ?>
-    line-height:<?php echo $text['header_line_hieght']; ?>;
+    line-height:<?php echo $text['header_line_hieght']; ?>px;
     <?php endif; ?>
   <?php endif; ?>
 }
