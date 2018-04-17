@@ -31,7 +31,7 @@
     if( $text ): ?>
     color:<?php echo $text['main_heading_colour']; ?>;
     <?php if ( $text['heading_font_size'] ) : ?>
-    font-size:<?php echo $text['heading_font_size']; ?>;
+    font-size:<?php echo $text['heading_font_size']; ?>em;
     <?php endif; ?>
   <?php endif; ?>
 }
