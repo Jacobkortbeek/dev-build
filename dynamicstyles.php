@@ -36,6 +36,9 @@
     <?php if ( $text['header_line_hieght'] ) : ?>
     line-height:<?php echo $text['header_line_hieght']; ?>px;
     <?php endif; ?>
+    <?php if ( $text['header_font_weight'] ) : ?>
+    font-weight:<?php echo $text['header_font_weight']; ?>;
+    <?php endif; ?>
   <?php endif; ?>
 }
 </style>
