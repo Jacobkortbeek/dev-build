@@ -18,6 +18,7 @@
           if( $text ): ?>
           <?php echo $text['main_heading_colour']; ?>
           <?php echo $text['heading_font_size']; ?>em
+          <?php echo $text['header_line_hieght']; ?>
         <?php endif; ?>
       </div>
     </div>
