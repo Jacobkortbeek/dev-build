@@ -12,7 +12,7 @@
         <div class="col-12 header">
           <div class="row">
             <div class="col-4">
-              <?php $band_logo = get_field( 'band_logo' ); ?>
+              <?php $band_logo = get_field( 'band_logo', 'options' ); ?>
               <?php if ( $band_logo ) { ?>
 	               <img src="<?php echo $band_logo['url']; ?>" alt="<?php echo $band_logo['alt']; ?>" />
               <?php } ?>
