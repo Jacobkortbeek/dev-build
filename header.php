@@ -18,7 +18,6 @@
               <?php } ?>
             </div>
             <div class="col-8">
-              TEST
               <<?php $text = get_field( 'text_options', 'options' );
                   if( $text ): ?><?php echo $text['heading_h_tag']; ?>
                class="heading"><?php the_field( 'head_title', 'option' ); ?></<?php echo $text['heading_h_tag']; ?>  <?php endif; ?> >
