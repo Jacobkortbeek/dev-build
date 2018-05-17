@@ -13,7 +13,7 @@
     <div class="col-md-6 two">
       <div class="cont">
         <<?php $sub_heading = get_field( 'text_options', 'options' );
-            if( $sub_heading ): ?><?php echo $text['sub_heading_tag']; ?>
+          if( $sub_heading ): ?><?php echo $text['sub_heading_tag']; ?>
          class="sub-heading">Sub Heading</<?php echo $text['sub_heading_tag']; ?>  <?php endif; ?> >
         <div class="sub-heading">
           <h3>sub heading</h3>
