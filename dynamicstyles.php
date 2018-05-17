@@ -23,25 +23,22 @@
   }
 
 
+  <?php
+    $text = get_field( 'text_options', 'options' );
+    if( $text ): ?>
   .heading{
-    <?php
-      $text = get_field( 'text_options', 'options' );
-      if( $text ): ?>
-  <?php echo $text['heading_h_tag']; ?> {
     padding: 20px;
+    color:<?php echo $text['main_heading_colour']; ?>;
+    <?php if ( $text['heading_font_size'] ) : ?>
+    font-size:<?php echo $text['heading_font_size']; ?>em;
+    <?php endif; ?>
+    <?php if ( $text['header_line_hieght'] ) : ?>
+    line-height:<?php echo $text['header_line_hieght']; ?>px;
+    <?php endif; ?>
+    <?php if ( $text['header_font_weight'] ) : ?>
+    font-weight:<?php echo $text['header_font_weight']; ?>;
+    <?php endif; ?>
 
-      color:<?php echo $text['main_heading_colour']; ?>;
-      <?php if ( $text['heading_font_size'] ) : ?>
-      font-size:<?php echo $text['heading_font_size']; ?>em;
-      <?php endif; ?>
-      <?php if ( $text['header_line_hieght'] ) : ?>
-      line-height:<?php echo $text['header_line_hieght']; ?>px;
-      <?php endif; ?>
-      <?php if ( $text['header_font_weight'] ) : ?>
-      font-weight:<?php echo $text['header_font_weight']; ?>;
-      <?php endif; ?>
-
-  }
 }
 <?php endif; ?>
 </style>
