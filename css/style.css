@@ -9,5 +9,10 @@
       max-height: 150px;
       max-width: 150px; }
 
+.logo-hero > img {
+  align-items: center;
+  max-width: 300px;
+  max-height: 300px; }
+
 body {
   background-repeat: no-repeat; }
