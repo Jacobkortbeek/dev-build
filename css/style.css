@@ -4,6 +4,8 @@
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px; }
   .header .logo-header {
+    max-height: 150px;
+    max-width: 150px;
     padding: 10px 0 0 10px; }
 
 body {
