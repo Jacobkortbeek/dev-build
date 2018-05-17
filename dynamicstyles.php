@@ -39,6 +39,20 @@
     font-weight:<?php echo $text['header_font_weight']; ?>;
     <?php endif; ?>
 
-}
+  }
+
+  .sub-heading{
+    padding: 20px;
+    color:<?php echo $text['sub_heading_font_colour']; ?>;
+    <?php if ( $text['sub_heading_font_size'] ) : ?>
+    font-size:<?php echo $text['sub_heading_font_size']; ?>em;
+    <?php endif; ?>
+    <?php if ( $text['sub_heading_line_hieght'] ) : ?>
+    line-height:<?php echo $text['sub_heading_line_hieght']; ?>px;
+    <?php endif; ?>
+    <?php if ( $text['sub_header_font_weight'] ) : ?>
+    font-weight:<?php echo $text['sub_header_font_weight']; ?>;
+    <?php endif; ?>
+  }
 <?php endif; ?>
 </style>
