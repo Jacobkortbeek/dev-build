@@ -8,21 +8,19 @@
   </head>
   <header>
     <div class="container">
-      <div class="row">
-        <div class="col-12 header">
-          <div class="row">
-            <div class="col-4">
+      <div class="row header">
+        <div class="col-4">
+
               <?php $band_logo = get_field( 'band_logo', 'options' ); ?>
               <?php if ( $band_logo ) { ?>
 	               <img src="<?php echo $band_logo['url']; ?>" alt="<?php echo $band_logo['alt']; ?>" />
               <?php } ?>
-            </div>
+
             <div class="col-8">
               <<?php $text = get_field( 'text_options', 'options' );
                   if( $text ): ?><?php echo $text['heading_h_tag']; ?>
                class="heading"><?php the_field( 'head_title', 'option' ); ?></<?php echo $text['heading_h_tag']; ?>  <?php endif; ?> >
             </div>
-          </div>
 
         </div>
       </div>
