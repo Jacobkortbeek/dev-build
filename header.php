@@ -9,7 +9,7 @@
   <header>
     <div class="container">
       <div class="row header">
-        <div class="col-md-4">
+        <div class="col-md-4 logo-header">
 
               <?php $band_logo = get_field( 'band_logo', 'options' ); ?>
               <?php if ( $band_logo ) { ?>
