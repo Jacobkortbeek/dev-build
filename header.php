@@ -19,8 +19,8 @@
         </div>
         <div class="col-md-8">
           <<?php $text = get_field( 'text_options', 'options' );
-              if( $text ): ?><?php echo $text['sub_heading_tag']; ?>
-           class="heading"><?php the_field( 'head_title', 'option' ); ?></<?php echo $text['sub_heading_tag']; ?>  <?php endif; ?> >
+              if( $text ): ?><?php echo $text['heading_h_tag']; ?>
+           class="heading"><?php the_field( 'head_title', 'option' ); ?></<?php echo $text['heading_h_tag']; ?>  <?php endif; ?> >
         </div>
       </div>
     </div>
