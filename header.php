@@ -16,12 +16,11 @@
 	               <img src="<?php echo $band_logo['url']; ?>" alt="<?php echo $band_logo['alt']; ?>" />
               <?php } ?>
 
-            <div class="col-8">
-              <<?php $text = get_field( 'text_options', 'options' );
-                  if( $text ): ?><?php echo $text['heading_h_tag']; ?>
-               class="heading"><?php the_field( 'head_title', 'option' ); ?></<?php echo $text['heading_h_tag']; ?>  <?php endif; ?> >
-            </div>
-
+        </div>
+        <div class="col-8">
+          <<?php $text = get_field( 'text_options', 'options' );
+              if( $text ): ?><?php echo $text['heading_h_tag']; ?>
+           class="heading"><?php the_field( 'head_title', 'option' ); ?></<?php echo $text['heading_h_tag']; ?>  <?php endif; ?> >
         </div>
       </div>
     </div>
