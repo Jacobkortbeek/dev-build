@@ -14,7 +14,7 @@
       <div class="cont">
         <<?php $text = get_field( 'text_options', 'options' );
             if( $text ): ?><?php echo $text['sub_heading_tag']; ?>
-         class="heading"><?php the_field( 'head_title', 'option' ); ?></<?php echo $text['sub_heading_tag']; ?>  <?php endif; ?> >
+         class="heading">Sub Heading</<?php echo $text['sub_heading_tag']; ?>  <?php endif; ?> >
         <div class="sub-heading">
           <h3>sub heading</h3>
         </div>
