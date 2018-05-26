@@ -46,7 +46,8 @@
   background-color: white;
   border-radius: 10px;
   -webkit-border-radius: 10px;
-  -moz-border-radius: 10px; }
+  -moz-border-radius: 10px;
+  padding-bottom: 30px; }
 
 body {
   background-repeat: no-repeat; }
