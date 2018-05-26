@@ -11,10 +11,15 @@
 
 ?>
 
-<section class="row no-max pad">
+<div class="container homeBlog">
+  <div class="row">
+
+
+
   <?php if( $query->have_posts() ) : while( $query->have_posts() ) : $query->the_post(); ?>
-    <div class="small-6 medium-4 large-3 columns grid-item">
+    <div class="col-md-4 blogHomePost">
       <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail( 'large' ); ?></a>
     </div>
   <?php endwhile; endif; wp_reset_postdata(); ?>
-</section>
+  </div>
+</div>
