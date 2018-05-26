@@ -11,7 +11,7 @@
     <div class="col-md-12">
       <<?php $text = get_field( 'text_options', 'options' );
           if( $text ): ?><?php echo $text['heading_h_tag']; ?>
-       class="heroText"><?php the_field( 'head_title', 'option' ); ?></<?php echo $text['heading_h_tag']; ?>  <?php endif; ?> >
+       class="heading"><?php the_field( 'head_title', 'option' ); ?></<?php echo $text['heading_h_tag']; ?>  <?php endif; ?> >
     </div>
   </div>
 </div>
