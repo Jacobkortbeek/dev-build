@@ -42,5 +42,8 @@
   .hero .heading {
     text-align: center; }
 
+.aboutUsHome > .row {
+  background-color: white; }
+
 body {
   background-repeat: no-repeat; }
