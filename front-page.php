@@ -36,7 +36,7 @@
 </div>
 
 <div class="container blogPosts">
-  <?php get_template_part( 'content', 'portfolio' ); ?>
+  <?php get_template_part( 'content', 'posts' ); ?>
 </div>
 
 <?php get_footer(); ?>
