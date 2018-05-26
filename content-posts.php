@@ -3,7 +3,7 @@
   $num_posts = ( is_front_page() ) ? 2 : -1;
 
   $args = array(
-    'post_type' => 'posts',
+    'post_type' => 'post',
     'posts_per_page' => $num_posts
   );
 
