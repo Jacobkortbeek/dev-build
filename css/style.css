@@ -52,14 +52,17 @@
   -moz-border-radius: 10px;
   margin-bottom: 30px; }
 
-.blogPosts .blogHomePost > .padding {
-  margin: 10px;
-  padding: 20px;
-  background-color: white;
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  text-align: center; }
+.blogPosts .blogHomePost {
+  overflow: hidden; }
+  .blogPosts .blogHomePost > .padding {
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    text-align: center; }
+    .blogPosts .blogHomePost > .padding > p {
+      padding: 20px; }
 
 body {
   background-repeat: no-repeat; }
