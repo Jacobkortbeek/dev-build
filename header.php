@@ -7,8 +7,8 @@
     <?php include ('dynamicstyles.php'); ?>
   </head>
   <header>
-    <div class="container boxShadow">
-      <div class="row header">
+    <div class="container">
+      <div class="row header boxShadow">
         <div class="col-md-4 logo-header">
 
               <?php $band_logo = get_field( 'band_logo', 'options' ); ?>
