@@ -1,5 +1,7 @@
 <?php
 
+  set_post_thumbnail_size( 100, 100, true ); // 100 pixels wide by 100 pixels tall, hard crop mode
+
   add_theme_support( 'menus' );
   add_theme_support( 'post-thumbnails' );
 
