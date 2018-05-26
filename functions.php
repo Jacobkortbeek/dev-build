@@ -4,7 +4,7 @@
   add_theme_support( 'post-thumbnails' );
 
   function wpt_excerpt_length( $length ) {
-    return 5;
+    return 40;
   }
   add_filter( 'excerpt_length', 'wpt_excerpt_length', 999 );
 
