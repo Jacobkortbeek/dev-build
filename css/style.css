@@ -39,6 +39,8 @@
       margin: auto;
       max-width: 300px;
       max-height: 300px; }
+  .hero .heroText {
+    text-align: center; }
 
 body {
   background-repeat: no-repeat; }
