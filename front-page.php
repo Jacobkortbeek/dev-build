@@ -19,8 +19,8 @@
 <div class="container aboutUs">
   <div class="row">
     <div class="col-md-12">
-      <<?php $aboutHeader = get_field( 'about_section_heading' );
-        if( $aboutHeader ): ?><?php echo the_field( 'sub_heading_font_size', 'options' ); ?>>
+      <?php $aboutHeader = get_field( 'about_section_heading' );
+        if( $aboutHeader ): ?><<?php echo the_field( 'sub_heading_font_size', 'options' ); ?>>
         <?php the_field( 'about_section_heading' ) ?>
         </<?php echo the_field( 'sub_heading_font_size', 'options' ); ?>>
       <?php endif; ?>
