@@ -36,26 +36,31 @@
 </div>
 
 <div class="container blogPosts">
-  <?php
+  <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+          <article class="post">
+            <h1><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
+            <h2><?php echo strip_tags( get_the_excerpt() ); ?></h2>
+            <ul class="post-meta no-bullet">
+              <li class="author">
 
-  $num_posts = ( is_front_page() ) ? 2 : -1;
+                  <span class="wpt-avatar small">
+                    <?php echo get_avatar( get_the_author_meta( 'ID' ), 24 ); ?>
+                  </span>
+                  by <?php the_author_posts_link(); ?>
 
-  $args = array(
-    'post_type' => 'Posts',
-    'posts_per_page' => $num_posts
-  );
-
-  $query = new WP_Query( $args );
-
-?>
-
-<section class="row no-max pad">
-  <?php if( $query->have_posts() ) : while( $query->have_posts() ) : $query->the_post(); ?>
-    <div class="small-6 medium-4 large-3 columns grid-item">
-      <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail( 'large' ); ?></a>
-    </div>
-  <?php endwhile; endif; wp_reset_postdata(); ?>
-</section>
+              </li>
+              <li class="cat">in <?php the_category( ' ' ); ?></li>
+              <li class="date">on the <?php the_time( 'F j, y' ); ?></li>
+            </ul>
+            <?php if ( get_the_post_thumbnail() ) : ?>
+            <div class="img-container">
+              <?php the_post_thumbnail( 'large' ); ?>
+            </div>
+          <?php endif; ?>
+          </article>
+        <?php endwhile; else : ?>
+          <p><?php _e( 'Sorry, no pages found.' ); ?>
+        <?php endif; ?>
 </div>
 
 <?php get_footer(); ?>
