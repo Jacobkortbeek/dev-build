@@ -16,4 +16,15 @@
   </div>
 </div>
 
+<div class="container aboutUs">
+  <div class="row">
+    <div class="col-md-12">
+      <?php $aboutHeader = get_field( 'about_section_heading' );
+            $aboutText = get_field( 'about_section_text' ); ?>
+      <<?php if( $aboutHeader ): echo the_field( 'sub_heading_font_size', 'options' ); ?>>
+        <?php $aboutHeader ?></ <?php echo the_field( 'sub_heading_font_size', 'options' ); ?> >
+    </div>
+  </div>
+</div>
+
 <?php get_footer(); ?>
