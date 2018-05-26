@@ -52,5 +52,8 @@
   -moz-border-radius: 10px;
   margin-bottom: 30px; }
 
+.blogPosts .blogHomePost {
+  background-color: white; }
+
 body {
   background-repeat: no-repeat; }
