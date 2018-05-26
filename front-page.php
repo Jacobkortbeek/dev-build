@@ -16,13 +16,20 @@
   </div>
 </div>
 
-<div class="container aboutUs">
+<div class="container aboutUsHome">
   <div class="row">
-    <div class="col-md-12">
+    <div class="col-md-12 aboutHeading">
       <?php $aboutHeader = get_field( 'about_section_heading' );
         if( $aboutHeader ): ?><<?php echo $text['sub_heading_tag']; ?>>
         <?php echo $aboutHeader ?>
         </<?php echo $text['sub_heading_tag']; ?>>
+      <?php endif; ?>
+    </div>
+    <div class="col-md-12 aboutText">
+      <?php $aboutText = get_field( 'about_section_text' );
+        if( $aboutHeader ): ?><p>
+        <?php echo $aboutText ?>
+      </p>
       <?php endif; ?>
     </div>
   </div>
