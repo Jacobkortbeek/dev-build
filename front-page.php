@@ -41,7 +41,7 @@
   $num_posts = ( is_front_page() ) ? 2 : -1;
 
   $args = array(
-    'post_type' => 'portfolio',
+    'post_type' => 'Posts',
     'posts_per_page' => $num_posts
   );
 
