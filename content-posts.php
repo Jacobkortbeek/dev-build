@@ -22,7 +22,7 @@
       <br>
       <h1><?php the_title(); ?></h1>
       <br>
-      <p><?php the_content(); ?></p>
+      <p><?php echo strip_tags( get_the_excerpt() ); ?></p>
     </div>
   <?php endwhile; endif; wp_reset_postdata(); ?>
   </div>
