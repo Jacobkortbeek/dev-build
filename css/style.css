@@ -52,7 +52,7 @@
   -moz-border-radius: 10px;
   margin-bottom: 30px; }
 
-.blogPosts .blogHomePost {
+.blogPosts .blogHomePost > .padding {
   margin: 10px;
   background-color: white; }
 
