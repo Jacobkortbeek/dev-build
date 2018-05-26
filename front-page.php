@@ -22,7 +22,7 @@
       <?php $aboutHeader = get_field( 'about_section_heading' );
         if( $aboutHeader ): ?><<?php echo the_field( 'sub_heading_font_size', 'options' ); ?>>
         <?php the_field( 'about_section_heading' ) ?>
-        </<?php echo the_field( 'sub_heading_font_size', 'options' ); ?>>
+        </<?php echo the_field( 'sub_heading_font_size', 'option' ); ?>>
       <?php endif; ?>
     </div>
   </div>
