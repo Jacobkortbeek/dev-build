@@ -7,7 +7,7 @@
     <?php include ('dynamicstyles.php'); ?>
   </head>
   <header>
-    <div class="container">
+    <div class="container boxShadow">
       <div class="row header">
         <div class="col-md-4 logo-header">
 

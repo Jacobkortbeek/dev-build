@@ -16,7 +16,7 @@
   </div>
 </div>
 
-<div class="container aboutUsHome">
+<div class="container aboutUsHome boxShadow">
   <div class="row">
     <div class="col-md-12 aboutHeading">
       <?php $aboutHeader = get_field( 'about_section_heading' );
