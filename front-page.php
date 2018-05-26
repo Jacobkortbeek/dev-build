@@ -19,10 +19,10 @@
 <div class="container aboutUs">
   <div class="row">
     <div class="col-md-12">
-      <h<?php $aboutHeader = get_field( 'about_section_heading' );
+      <<?php $aboutHeader = get_field( 'about_section_heading' );
             $aboutText = get_field( 'about_section_text' );
        if( $aboutHeader ): echo the_field( 'sub_heading_font_size', 'options' ); ?>>
-        <?php the_field( $aboutHeader ) ?></ <?php echo the_field( 'sub_heading_font_size', 'options' ); ?>> <?php endif; ?>
+        <?php the_field( 'about_section_heading' ) ?></ <?php echo the_field( 'sub_heading_font_size', 'options' ); ?>> <?php endif; ?>
     </div>
   </div>
 </div>
