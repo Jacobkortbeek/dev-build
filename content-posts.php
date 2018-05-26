@@ -19,7 +19,7 @@
   <?php if( $query->have_posts() ) : while( $query->have_posts() ) : $query->the_post(); ?>
     <div class="col-md-4 blogHomePost">
       <div class="padding boxShadow">
-        <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail( 'small' ); ?></a>
+        <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail( 'medium' ); ?></a>
         <br>
         <h1><?php the_title(); ?></h1>
         <br>
