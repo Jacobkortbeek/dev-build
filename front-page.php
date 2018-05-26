@@ -20,9 +20,9 @@
   <div class="row">
     <div class="col-md-12">
       <?php $aboutHeader = get_field( 'about_section_heading' );
-        if( $aboutHeader ): ?><<?php echo $text['sub_heading_font_size']; ?>>
+        if( $aboutHeader ): ?><<?php echo $text['sub_heading_tag']; ?>>
         <?php echo $aboutHeader ?>
-        </<?php echo $text['sub_heading_font_size']; ?>>
+        </<?php echo $text['sub_heading_tag']; ?>>
       <?php endif; ?>
     </div>
   </div>
