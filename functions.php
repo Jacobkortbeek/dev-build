@@ -53,7 +53,9 @@
 
   function wpt_theme_js() {
     wp_enqueue_script( 'bootstrap_js', get_template_directory_uri() . '/js/bootstrap.min.js', array('jquery'), ' ', true);
+    wp_enqueue_script( 'matchHeightJquery_js', get_template_directory_uri() . '/js/jquery.matchHeight.js', array('jquery'), ' ', true );
     wp_enqueue_script( 'matchHeight_js', get_template_directory_uri() . '/js/match-height.js', array('jquery'), ' ', true );
+
   }
   add_action( 'wp_enqueue_scripts', 'wpt_theme_js' );
 
