@@ -18,7 +18,7 @@
 
   <?php if( $query->have_posts() ) : while( $query->have_posts() ) : $query->the_post(); ?>
     <div class="col-md-4 blogHomePost">
-      <div class="padding boxShadow">
+      <div class="padding boxShadow matchHeight">
         <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
         <br>
         <h1><?php the_title(); ?></h1>
