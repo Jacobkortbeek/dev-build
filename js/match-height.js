@@ -6,3 +6,5 @@ $(function() {
     remove: false
 });
 });
+
+console.log( 'this is the match height doc' );
